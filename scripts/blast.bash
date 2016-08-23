@@ -2,12 +2,12 @@
 
 # select sample:
 
-samplename="RUN_190716"
+samplename="RUN_290716"
 
 # make directory hierachy:
 
 homeDir="/home/jamtor"
-projectDir="$homeDir/projects/nenad_natgen/"
+projectDir="$homeDir/projects/nenad_natgen"
 annotDir="$projectDir/blast_dbs"
 resultsDir="$projectDir/results"
 
@@ -35,5 +35,5 @@ for file in $inFiles; do
 	echo $blastline
 	echo -e
 	
-	$blastline
+	#$blastline
 done;
